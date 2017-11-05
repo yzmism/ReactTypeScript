@@ -1,0 +1,16 @@
+* Dependencies
+#+BEGIN_SRC SH
+$ npm install
+#+END_SRC
+* Running
+#+BEGIN_SRC SH
+$ npm run start
+#+END_SRC
+* Testing
+#+BEGIN_SRC SH
+$ npm run test
+#+END_SRC
+* Building
+#+BEGIN_SRC SH
+$ npm run build
+#+END_SRC
