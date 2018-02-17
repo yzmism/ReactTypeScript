@@ -1,6 +1,6 @@
-import { CounterAction } from '../actions';
-import { StoreState } from '../types/index';
-import { INCREMENT_COUNTER, DECREMENT_COUNTER } from '../constants/index';
+import { CounterAction } from '../action';
+import { StoreState } from '../type/index';
+import { INCREMENT_COUNTER, DECREMENT_COUNTER } from '../constant/index';
 
 export function counter(state: StoreState, action: CounterAction): StoreState {
   switch (action.type) {
