@@ -13,11 +13,11 @@ export type CounterAction = IncrementCounter | DecrementCounter;
 export function incrementCounter(): IncrementCounter {
   return {
     type: constants.INCREMENT_COUNTER
-  }
+  };
 }
 
 export function decrementCounter(): DecrementCounter {
   return {
     type: constants.DECREMENT_COUNTER
-  }
+  };
 }

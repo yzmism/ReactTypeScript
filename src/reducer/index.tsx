@@ -8,6 +8,7 @@ export function counter(state: StoreState, action: CounterAction): StoreState {
       return {...state, counterNum: state.counterNum + 1};
     case DECREMENT_COUNTER:
       return {...state, counterNum: Math.max(1, state.counterNum - 1)};
+    default:
+      return state;
   }
-  return state;
 }
